@@ -33,6 +33,7 @@ Uses Hibernate with JPA for clean and object-oriented database interaction.
 
 ## 🗂️ Project Structure
 ```
+CountryCRUD_HibernateJPA
 ├── src/
 │     ├── entity/
 │     │     ├── CountryEntity.java
@@ -43,7 +44,7 @@ Uses Hibernate with JPA for clean and object-oriented database interaction.
 │     │    └── RegionService.java
 │     │
 │     ├── app/
-│     │   ├── JPAUtil.java
+│     │   ├── HibernateUtil.java
 │     │   └── Main.java
 │     │
 |     └──resoures/ 
