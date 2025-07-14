@@ -43,12 +43,52 @@ CountryCRUD_HibernateJPA
 │     │    ├── CountryService.java
 │     │    └── RegionService.java
 │     │
-│     ├── app/
-│     │   ├── HibernateUtil.java
-│     │   └── Main.java
-│     │
-|     └──resoures/ 
-│           └── META-INF/
-│                 └── persistence.xml
+│     └── app/
+│         ├── HibernateUtil.java
+│         └── Main.java
+│   
+├── resources/ 
+│       └── META-INF/
+│             └── persistence.xml
 └── pom.xml
 ```
+---
+
+📦 Maven Dependencies
+Below are the dependencies required in your pom.xml:
+```
+<dependencies>
+    <!-- Hibernate Core -->
+    <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>7.0.5.Final</version>
+    </dependency>
+
+    <!-- PostgreSQL JDBC Driver -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.7</version>
+    </dependency>
+
+    <!-- Jakarta Persistence API -->
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.2.0</version>
+    </dependency>
+
+    <!-- Jakarta Transaction API -->
+    <dependency>
+        <groupId>jakarta.transaction</groupId>
+        <artifactId>jakarta.transaction-api</artifactId>
+        <version>2.0.1</version>
+    </dependency>
+</dependencies>
+
+```
+---
+📌 Contact Details
+ -Name : Rohit Jagdale
+ -Email : rohitjagdale0606@gmail.com
