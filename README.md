@@ -32,4 +32,22 @@ Uses Hibernate with JPA for clean and object-oriented database interaction.
 ---
 
 ## 🗂️ Project Structure
-
+```
+├── src/
+│     ├── entity/
+│     │     ├── CountryEntity.java
+│     │     └── RegionEntity.java
+│     │
+│     ├── service/
+│     │    ├── CountryService.java
+│     │    └── RegionService.java
+│     │
+│     ├── app/
+│     │   ├── JPAUtil.java
+│     │   └── Main.java
+│     │
+|     └──resoures/ 
+│           └── META-INF/
+│                 └── persistence.xml
+└── pom.xml
+```
